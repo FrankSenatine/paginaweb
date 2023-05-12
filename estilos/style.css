@@ -1,0 +1,218 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(130, 112, 213);
+}
+.logo{
+    justify-content: center;
+    justify-items: center;
+    border-color: black;
+}
+.header-logo-txt {
+    color: greenyellow;
+    margin-left: 16px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.menu p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto 20px;
+
+}
+#eleccion{
+    padding-right: 50px;
+    
+}
+#lista{
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+     
+}
+#lista ul{
+    display: flex;
+}
+#lista ul li{
+    padding: 10%;
+    text-decoration: none;
+}
+#lista ul li a{
+    justify-content: center;
+    text-decoration: none;
+    padding: auto;
+    color: black;
+}
+
+#logo{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+#categoriaLapt{
+    justify-self: center;
+}
+.Categoria{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between ;
+    background-color: rgb(240, 207, 167);
+}
+.Categoria a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 100%;
+    position: relative;
+}
+.imagenCarrusel{
+    height: 100%;
+}
+.flechas{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#contenedor{
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-left: 300px;
+    height: 500px;
+    width: 1200px;
+    overflow: hidden;
+}
+#imagenCarrusel1{
+    background-color: rgb(170, 114, 170);
+}
+#imagenCarrusel2{
+    background-color: rgb(95, 95, 182);
+}
+#imagenCarrusel3{
+    background-color: rgb(167, 193, 241);
+}
+i{
+    color: white;
+    font-size: 50px;
+}
+#contenedor img{
+    height: 100%;
+    width: 100%;
+}
+#laptop{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.objeto{
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 260px;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.conteVentas{
+    display: flex;
+
+    
+}
+.monto{
+    background-color: rgb(163, 158, 158);
+}
+
+.Banner{
+    width: cover;
+    height: 300px;
+
+    margin:auto;
+
+    background-image: url(/imagenes/baner1.png);
+
+    background-size: 50% 100%;
+
+    animation: Banner 10s infinite;
+    
+}
+@keyframes Banner{
+    0%, 30%{
+        background-image: url(/imagenes/baner1.png);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1;
+    }
+    35%, 65%{
+        background-image: url(/imagenes/baner2.png);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.1;
+    }
+    70%, 100%{
+        background-image: url(/imagenes/baner3.jpg);
+        opacity: 1;
+    }
+}
+
+.Juegos{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.Juego{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+
+}
+.juegotxt p{
+    
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    padding-top: 200px;
+    text-decoration: none;
+    
+}
+
+#juego1{
+    background-image: url(/imagenes/juego1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#juego2{
+    background-image: url(/imagenes/juego2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#juego3{
+    background-image: url(/imagenes/juego3.jpg);
+    background-size: cover;
+    background-position: center;
+}
